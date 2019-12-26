@@ -1,3 +1,3 @@
 FROM tomcat:8
 
-COPY Springpet-Clinic/target/*.war /usr/local/tomcat/webapps/ 
+COPY Springpet-Clinic/target/*.jar /usr/local/tomcat/webapps/ 
